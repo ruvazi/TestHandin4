@@ -1,6 +1,7 @@
 RuVaZi
 
 added paramitized Test. See screen Shot for prof of working:
+image:./docs/img/screenShotOfTestparamertized.png["ScreenShotOfParamatizedTest", scaledwidth="25%"]
 
 _________________________________________________________________________________________________________________________________
 == JavaANPR
