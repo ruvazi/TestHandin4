@@ -1,3 +1,8 @@
+RuVaZi
+
+added paramitized Test. See screen Shot for prof of working:
+
+_________________________________________________________________________________________________________________________________
 == JavaANPR
 
 image:https://travis-ci.org/oskopek/javaanpr.svg?branch=master["Build Status", link="https://travis-ci.org/oskopek/javaanpr"]
