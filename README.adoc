@@ -1,28 +1,28 @@
-==RuVaZi
+*RuVaZi*
 
-==Spørgsmål og svar
+*Spørgsmål og svar*
 
-==Explain the purpose of the Test (what the original test exposed, and what your test expose):
+- *Explain the purpose of the Test (what the original test exposed, and what your test expose):*
 
 Meningen med testen er at tjekke om programmet er i stand til at genkende forskellige nummerplader ud fra en mappe med billeder af forskellige bilnummerplader. 
 Der er to test, en der tester en enkelt nummerplade, og en der tester alle nummerpladerne, men den anden test tester ikke rigtigheden af resultatet kodens tolkning af nummerpladerne.
 
-==Explain about Parameterized Tests in JUnit and how you have used it in this exercise:
+- *Explain about Parameterized Tests in JUnit and how you have used it in this exercise:*
 
 Med parameteret (parameterized) tests kan man lave simpel testkode uden at skulle skrive en masse. Man kan med parameteret test lave lister med test input/output. Dette har været meget rart at bruge i en opgave som denne med at test mange billeder af forskellige nummer plader.
 
-==Explain the topic Data Driven Testing, and why it often makes a lot of sense to read test-data from a file:
+- *Explain the topic Data Driven Testing, and why it often makes a lot of sense to read test-data from a file:*
 
 Data-Driven-Testing er en måde hvorpå man får test dataen fra en ekstern part, og man er ikke afhængig af at rette i koden for at test ny data.
 Data Driven Testing gør at man kan tilføje nye test cases hurtigere og lettere. Man slipper også med DDT at hardcode en masse data.
 
-==Your answers to the question; whether what you implemented was a Unit Test or a JUnit Test, the problems you might have discovered with the test and, your suggestions for ways this could have been fixed.. :
+- *Your answers to the question; whether what you implemented was a Unit Test or a JUnit Test, the problems you might have discovered with the test and, your suggestions for ways this could have been fixed.. :*
 
 Jeg vil mene at det er en JUnit Test, da det er java kode jeg har arbejde med.
 En unit test fin beskrevet med følgende citat: ”A unit test is a piece of code written by a developer that executes a specific functionality in the code to be tested and asserts a certain behavior or state.” 
 (http://www.vogella.com/tutorials/JUnit/article.html):
 
-==The steps you took to include Hamcrest matchers in the project, and the difference they made for the test
+- *The steps you took to include Hamcrest matchers in the project, and the difference they made for the test:*
 
 I pom.xml under dependencys blev følgende added:
 <dependency>
