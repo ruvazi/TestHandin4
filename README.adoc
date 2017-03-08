@@ -18,9 +18,9 @@ Data Driven Testing gør at man kan tilføje nye test cases hurtigere og lettere
 
 - *Your answers to the question; whether what you implemented was a Unit Test or a JUnit Test, the problems you might have discovered with the test and, your suggestions for ways this could have been fixed.. :*
 
-Jeg vil mene at det er en JUnit Test, da det er java kode jeg har arbejde med.
-En unit test fin beskrevet med følgende citat: ”A unit test is a piece of code written by a developer that executes a specific functionality in the code to be tested and asserts a certain behavior or state.” 
-(http://www.vogella.com/tutorials/JUnit/article.html):
+Jeg vil mene at det er en JUnit Test, da det er java kode jeg har arbejdet med.
+Hvad en unit test er, er fint beskrevet med følgende citat: ”A unit test is a piece of code written by a developer that executes a specific functionality in the code to be tested and asserts a certain behavior or state.” 
+(http://www.vogella.com/tutorials/JUnit/article.html).
 
 - *The steps you took to include Hamcrest matchers in the project, and the difference they made for the test:*
 
